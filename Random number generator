@@ -1,0 +1,7 @@
+import random
+
+start_range = int(input("Enter the start of the range: "))
+end_range = int(input("Enter the end of the range: "))
+
+random_number = random.randint(start_range, end_range)
+print("Random number:", random_number)
